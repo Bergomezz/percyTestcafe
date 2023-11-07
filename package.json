@@ -1,0 +1,17 @@
+{
+  "name": "percytestcafe",
+  "version": "1.0.0",
+  "description": "Visual Regression Testing with TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test:percy": "percy exec -- testcafe chrome ./tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@percy/cli": "^1.27.4",
+    "@percy/testcafe": "^1.0.4",
+    "testcafe": "^3.3.0"
+  }
+}
